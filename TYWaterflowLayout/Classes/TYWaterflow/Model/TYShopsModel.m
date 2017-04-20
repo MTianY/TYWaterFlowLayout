@@ -11,4 +11,10 @@
 
 @implementation TYShopsModel
 
++ (instancetype)modelWithDict:(NSDictionary *)dict {
+    TYShopsModel *model = [[TYShopsModel alloc] init];
+    [model setValuesForKeysWithDictionary:dict];
+    return model;
+}
+
 @end

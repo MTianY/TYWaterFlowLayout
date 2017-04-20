@@ -15,4 +15,6 @@
 @property (nonatomic, assign) NSInteger w;
 @property (nonatomic, assign) NSInteger h;
 
++ (instancetype)modelWithDict:(NSDictionary *)dict;
+
 @end

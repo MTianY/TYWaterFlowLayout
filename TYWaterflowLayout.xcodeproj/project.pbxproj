@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30AC050FA16ADBF5AA520AB6 /* libPods-TYWaterflowLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD47CFD2279907A1549F9CAF /* libPods-TYWaterflowLayout.a */; };
 		4C326DD01EA8F39200D0A17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DCF1EA8F39200D0A17F /* main.m */; };
 		4C326DD31EA8F39200D0A17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DD21EA8F39200D0A17F /* AppDelegate.m */; };
 		4C326DDB1EA8F39200D0A17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C326DDA1EA8F39200D0A17F /* Assets.xcassets */; };
@@ -17,6 +18,8 @@
 		4C326DFC1EA8FAE700D0A17F /* TYWaterFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DFB1EA8FAE700D0A17F /* TYWaterFlowViewController.m */; };
 		4C326DFF1EA8FB6400D0A17F /* TYWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DFE1EA8FB6400D0A17F /* TYWaterFlowLayout.m */; };
 		4C326E021EA8FC5300D0A17F /* TYShopsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326E011EA8FC5300D0A17F /* TYShopsModel.m */; };
+		4C326E061EA9150200D0A17F /* TYShopCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326E041EA9150200D0A17F /* TYShopCell.m */; };
+		4C326E071EA9150200D0A17F /* TYShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C326E051EA9150200D0A17F /* TYShopCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,12 @@
 		4C326DFE1EA8FB6400D0A17F /* TYWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterFlowLayout.m; sourceTree = "<group>"; };
 		4C326E001EA8FC5300D0A17F /* TYShopsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShopsModel.h; sourceTree = "<group>"; };
 		4C326E011EA8FC5300D0A17F /* TYShopsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShopsModel.m; sourceTree = "<group>"; };
+		4C326E031EA9150200D0A17F /* TYShopCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShopCell.h; sourceTree = "<group>"; };
+		4C326E041EA9150200D0A17F /* TYShopCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShopCell.m; sourceTree = "<group>"; };
+		4C326E051EA9150200D0A17F /* TYShopCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TYShopCell.xib; sourceTree = "<group>"; };
+		B641F8B8954F9C6FEC40A979 /* Pods-TYWaterflowLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYWaterflowLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TYWaterflowLayout/Pods-TYWaterflowLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		CD47CFD2279907A1549F9CAF /* libPods-TYWaterflowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TYWaterflowLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC50E8BB12DA0667842A444 /* Pods-TYWaterflowLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TYWaterflowLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-TYWaterflowLayout/Pods-TYWaterflowLayout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30AC050FA16ADBF5AA520AB6 /* libPods-TYWaterflowLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 			children = (
 				4C326DCD1EA8F39200D0A17F /* TYWaterflowLayout */,
 				4C326DCC1EA8F39200D0A17F /* Products */,
+				D7AF11EE373485178E714ED8 /* Pods */,
+				DCC512C5A73A096FC1BF727A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +178,9 @@
 			children = (
 				4C326DFD1EA8FB6400D0A17F /* TYWaterFlowLayout.h */,
 				4C326DFE1EA8FB6400D0A17F /* TYWaterFlowLayout.m */,
+				4C326E031EA9150200D0A17F /* TYShopCell.h */,
+				4C326E041EA9150200D0A17F /* TYShopCell.m */,
+				4C326E051EA9150200D0A17F /* TYShopCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -203,6 +218,23 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		D7AF11EE373485178E714ED8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B641F8B8954F9C6FEC40A979 /* Pods-TYWaterflowLayout.debug.xcconfig */,
+				DDC50E8BB12DA0667842A444 /* Pods-TYWaterflowLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCC512C5A73A096FC1BF727A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD47CFD2279907A1549F9CAF /* libPods-TYWaterflowLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -210,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C326DE21EA8F39200D0A17F /* Build configuration list for PBXNativeTarget "TYWaterflowLayout" */;
 			buildPhases = (
+				58EA57616D61DA4F2875EAD4 /* [CP] Check Pods Manifest.lock */,
 				4C326DC71EA8F39200D0A17F /* Sources */,
 				4C326DC81EA8F39200D0A17F /* Frameworks */,
 				4C326DC91EA8F39200D0A17F /* Resources */,
+				5A71C0658166D078793AEAEF /* [CP] Embed Pods Frameworks */,
+				C056A6C228BC0A27C6A648F5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,11 +299,60 @@
 			files = (
 				4C326DDE1EA8F39200D0A17F /* LaunchScreen.storyboard in Resources */,
 				4C326DDB1EA8F39200D0A17F /* Assets.xcassets in Resources */,
+				4C326E071EA9150200D0A17F /* TYShopCell.xib in Resources */,
 				4C326DE61EA8F3CF00D0A17F /* 1.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58EA57616D61DA4F2875EAD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5A71C0658166D078793AEAEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYWaterflowLayout/Pods-TYWaterflowLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C056A6C228BC0A27C6A648F5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TYWaterflowLayout/Pods-TYWaterflowLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4C326DC71EA8F39200D0A17F /* Sources */ = {
@@ -281,6 +365,7 @@
 				4C326DD31EA8F39200D0A17F /* AppDelegate.m in Sources */,
 				4C326DF91EA8F8C200D0A17F /* TYHomeViewController.m in Sources */,
 				4C326E021EA8FC5300D0A17F /* TYShopsModel.m in Sources */,
+				4C326E061EA9150200D0A17F /* TYShopCell.m in Sources */,
 				4C326DD01EA8F39200D0A17F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -391,6 +476,7 @@
 		};
 		4C326DE31EA8F39200D0A17F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B641F8B8954F9C6FEC40A979 /* Pods-TYWaterflowLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FGL7E5MTW2;
@@ -403,6 +489,7 @@
 		};
 		4C326DE41EA8F39200D0A17F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC50E8BB12DA0667842A444 /* Pods-TYWaterflowLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FGL7E5MTW2;
@@ -432,6 +519,7 @@
 				4C326DE41EA8F39200D0A17F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
