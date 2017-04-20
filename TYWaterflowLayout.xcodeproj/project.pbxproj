@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C326DD01EA8F39200D0A17F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DCF1EA8F39200D0A17F /* main.m */; };
+		4C326DD31EA8F39200D0A17F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DD21EA8F39200D0A17F /* AppDelegate.m */; };
+		4C326DDB1EA8F39200D0A17F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C326DDA1EA8F39200D0A17F /* Assets.xcassets */; };
+		4C326DDE1EA8F39200D0A17F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C326DDC1EA8F39200D0A17F /* LaunchScreen.storyboard */; };
+		4C326DE61EA8F3CF00D0A17F /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4C326DE51EA8F3CF00D0A17F /* 1.plist */; };
+		4C326DF21EA8F7F400D0A17F /* TYTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DF11EA8F7F400D0A17F /* TYTabBarViewController.m */; };
+		4C326DF91EA8F8C200D0A17F /* TYHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DF81EA8F8C200D0A17F /* TYHomeViewController.m */; };
+		4C326DFC1EA8FAE700D0A17F /* TYWaterFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DFB1EA8FAE700D0A17F /* TYWaterFlowViewController.m */; };
+		4C326DFF1EA8FB6400D0A17F /* TYWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326DFE1EA8FB6400D0A17F /* TYWaterFlowLayout.m */; };
+		4C326E021EA8FC5300D0A17F /* TYShopsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C326E011EA8FC5300D0A17F /* TYShopsModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C326DCB1EA8F39200D0A17F /* TYWaterflowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYWaterflowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C326DCF1EA8F39200D0A17F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C326DD11EA8F39200D0A17F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C326DD21EA8F39200D0A17F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C326DDA1EA8F39200D0A17F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C326DDD1EA8F39200D0A17F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C326DDF1EA8F39200D0A17F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C326DE51EA8F3CF00D0A17F /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		4C326DF01EA8F7F400D0A17F /* TYTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYTabBarViewController.h; sourceTree = "<group>"; };
+		4C326DF11EA8F7F400D0A17F /* TYTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYTabBarViewController.m; sourceTree = "<group>"; };
+		4C326DF71EA8F8C200D0A17F /* TYHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYHomeViewController.h; sourceTree = "<group>"; };
+		4C326DF81EA8F8C200D0A17F /* TYHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYHomeViewController.m; sourceTree = "<group>"; };
+		4C326DFA1EA8FAE700D0A17F /* TYWaterFlowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWaterFlowViewController.h; sourceTree = "<group>"; };
+		4C326DFB1EA8FAE700D0A17F /* TYWaterFlowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterFlowViewController.m; sourceTree = "<group>"; };
+		4C326DFD1EA8FB6400D0A17F /* TYWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYWaterFlowLayout.h; sourceTree = "<group>"; };
+		4C326DFE1EA8FB6400D0A17F /* TYWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYWaterFlowLayout.m; sourceTree = "<group>"; };
+		4C326E001EA8FC5300D0A17F /* TYShopsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYShopsModel.h; sourceTree = "<group>"; };
+		4C326E011EA8FC5300D0A17F /* TYShopsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYShopsModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C326DC81EA8F39200D0A17F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C326DC21EA8F39200D0A17F = {
+			isa = PBXGroup;
+			children = (
+				4C326DCD1EA8F39200D0A17F /* TYWaterflowLayout */,
+				4C326DCC1EA8F39200D0A17F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C326DCC1EA8F39200D0A17F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DCB1EA8F39200D0A17F /* TYWaterflowLayout.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C326DCD1EA8F39200D0A17F /* TYWaterflowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DE71EA8F44500D0A17F /* Classes */,
+				4C326DD11EA8F39200D0A17F /* AppDelegate.h */,
+				4C326DD21EA8F39200D0A17F /* AppDelegate.m */,
+				4C326DDA1EA8F39200D0A17F /* Assets.xcassets */,
+				4C326DDC1EA8F39200D0A17F /* LaunchScreen.storyboard */,
+				4C326DE51EA8F3CF00D0A17F /* 1.plist */,
+				4C326DDF1EA8F39200D0A17F /* Info.plist */,
+				4C326DCE1EA8F39200D0A17F /* Supporting Files */,
+			);
+			path = TYWaterflowLayout;
+			sourceTree = "<group>";
+		};
+		4C326DCE1EA8F39200D0A17F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DCF1EA8F39200D0A17F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C326DE71EA8F44500D0A17F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DE81EA8F44500D0A17F /* Main */,
+				4C326DF31EA8F8AE00D0A17F /* Home */,
+				4C326DEC1EA8F44500D0A17F /* TYWaterflow */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4C326DE81EA8F44500D0A17F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DE91EA8F44500D0A17F /* Controller */,
+				4C326DEA1EA8F44500D0A17F /* Model */,
+				4C326DEB1EA8F44500D0A17F /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		4C326DE91EA8F44500D0A17F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DF01EA8F7F400D0A17F /* TYTabBarViewController.h */,
+				4C326DF11EA8F7F400D0A17F /* TYTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C326DEA1EA8F44500D0A17F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C326DEB1EA8F44500D0A17F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C326DEC1EA8F44500D0A17F /* TYWaterflow */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DED1EA8F44500D0A17F /* Controller */,
+				4C326DEE1EA8F44500D0A17F /* Model */,
+				4C326DEF1EA8F44500D0A17F /* View */,
+			);
+			path = TYWaterflow;
+			sourceTree = "<group>";
+		};
+		4C326DED1EA8F44500D0A17F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DFA1EA8FAE700D0A17F /* TYWaterFlowViewController.h */,
+				4C326DFB1EA8FAE700D0A17F /* TYWaterFlowViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C326DEE1EA8F44500D0A17F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4C326E001EA8FC5300D0A17F /* TYShopsModel.h */,
+				4C326E011EA8FC5300D0A17F /* TYShopsModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C326DEF1EA8F44500D0A17F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DFD1EA8FB6400D0A17F /* TYWaterFlowLayout.h */,
+				4C326DFE1EA8FB6400D0A17F /* TYWaterFlowLayout.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C326DF31EA8F8AE00D0A17F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DF41EA8F8AE00D0A17F /* Controller */,
+				4C326DF51EA8F8AE00D0A17F /* Model */,
+				4C326DF61EA8F8AE00D0A17F /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4C326DF41EA8F8AE00D0A17F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4C326DF71EA8F8C200D0A17F /* TYHomeViewController.h */,
+				4C326DF81EA8F8C200D0A17F /* TYHomeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4C326DF51EA8F8AE00D0A17F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4C326DF61EA8F8AE00D0A17F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C326DCA1EA8F39200D0A17F /* TYWaterflowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C326DE21EA8F39200D0A17F /* Build configuration list for PBXNativeTarget "TYWaterflowLayout" */;
+			buildPhases = (
+				4C326DC71EA8F39200D0A17F /* Sources */,
+				4C326DC81EA8F39200D0A17F /* Frameworks */,
+				4C326DC91EA8F39200D0A17F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYWaterflowLayout;
+			productName = TYWaterflowLayout;
+			productReference = 4C326DCB1EA8F39200D0A17F /* TYWaterflowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C326DC31EA8F39200D0A17F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = MTY;
+				TargetAttributes = {
+					4C326DCA1EA8F39200D0A17F = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = FGL7E5MTW2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4C326DC61EA8F39200D0A17F /* Build configuration list for PBXProject "TYWaterflowLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C326DC21EA8F39200D0A17F;
+			productRefGroup = 4C326DCC1EA8F39200D0A17F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C326DCA1EA8F39200D0A17F /* TYWaterflowLayout */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C326DC91EA8F39200D0A17F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C326DDE1EA8F39200D0A17F /* LaunchScreen.storyboard in Resources */,
+				4C326DDB1EA8F39200D0A17F /* Assets.xcassets in Resources */,
+				4C326DE61EA8F3CF00D0A17F /* 1.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C326DC71EA8F39200D0A17F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C326DFF1EA8FB6400D0A17F /* TYWaterFlowLayout.m in Sources */,
+				4C326DF21EA8F7F400D0A17F /* TYTabBarViewController.m in Sources */,
+				4C326DFC1EA8FAE700D0A17F /* TYWaterFlowViewController.m in Sources */,
+				4C326DD31EA8F39200D0A17F /* AppDelegate.m in Sources */,
+				4C326DF91EA8F8C200D0A17F /* TYHomeViewController.m in Sources */,
+				4C326E021EA8FC5300D0A17F /* TYShopsModel.m in Sources */,
+				4C326DD01EA8F39200D0A17F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C326DDC1EA8F39200D0A17F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C326DDD1EA8F39200D0A17F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C326DE01EA8F39200D0A17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C326DE11EA8F39200D0A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C326DE31EA8F39200D0A17F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FGL7E5MTW2;
+				INFOPLIST_FILE = TYWaterflowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.TYWaterflowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4C326DE41EA8F39200D0A17F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FGL7E5MTW2;
+				INFOPLIST_FILE = TYWaterflowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Matyit.TYWaterflowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C326DC61EA8F39200D0A17F /* Build configuration list for PBXProject "TYWaterflowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C326DE01EA8F39200D0A17F /* Debug */,
+				4C326DE11EA8F39200D0A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C326DE21EA8F39200D0A17F /* Build configuration list for PBXNativeTarget "TYWaterflowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C326DE31EA8F39200D0A17F /* Debug */,
+				4C326DE41EA8F39200D0A17F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C326DC31EA8F39200D0A17F /* Project object */;
+}
