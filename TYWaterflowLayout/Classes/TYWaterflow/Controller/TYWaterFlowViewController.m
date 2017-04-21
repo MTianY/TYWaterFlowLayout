@@ -66,9 +66,9 @@ static NSString *const collectionViewCellID = @"collectionViewCellID";
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     TYShopCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:collectionViewCellID forIndexPath:indexPath];
-    if (nil == cell) {
-        cell = [[TYShopCell alloc] init];
-    }
+//    if (nil == cell) {
+//        cell = [[TYShopCell alloc] init];
+//    }
     cell.model = self.shops[indexPath.row];
     return cell;
 }
@@ -78,7 +78,6 @@ static NSString *const collectionViewCellID = @"collectionViewCellID";
 - (CGFloat)waterFlowLayout:(TYWaterFlowLayout *)waterFlowLayout itemWidth:(CGFloat)itemWidth atIndexPath:(NSIndexPath *)indexPath {
     TYShopsModel *model = self.shops[indexPath.row];
     CGFloat itemH = model.h / model.w  * itemWidth;
-    NSLog(@"%zd",itemH);
     return itemH;
 }
 

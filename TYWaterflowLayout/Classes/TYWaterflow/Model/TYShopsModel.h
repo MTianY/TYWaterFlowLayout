@@ -7,13 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface TYShopsModel : NSObject
 
 @property (nonatomic, strong) NSString *img;
 @property (nonatomic, strong) NSString *price;
-@property (nonatomic, assign) NSInteger w;
-@property (nonatomic, assign) NSInteger h;
+@property (nonatomic, assign) CGFloat w;
+@property (nonatomic, assign) CGFloat h;
 
 + (instancetype)modelWithDict:(NSDictionary *)dict;
 
